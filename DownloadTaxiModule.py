@@ -8,7 +8,7 @@ from typing import List
 from sqlalchemy import Numeric, Date
 from luigi.util import requires
 from dateutil.relativedelta import relativedelta
-
+import init_events
 
 def get_filename(year: int, month: int) -> str:
     return f'yellow_tripdata_{year}-{month:02}.csv'
