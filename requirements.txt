@@ -1,0 +1,9 @@
+requests
+pandas
+bs4
+sqlalchemy
+psycopg2
+python-dotenv
+luigi
+typing
+telebot
