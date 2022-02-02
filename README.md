@@ -17,6 +17,7 @@ Docker:
 docker build -t taxi .
 
 start "luigid" for monitoring your tasks (127.0.0.1:8082 or http://localhost:8082/)
+
 docker run -d --network host taxi luigid
 
 run tasks in interactive mode (start&stop input parameters):
